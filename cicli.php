@@ -66,6 +66,17 @@ for ($i = 0; $i < $length; $i++) {
 } */
 
 
+//$ range()
+/* $numbers = range(1, 10, 3);
+print_r($numbers); */
+
+/* foreach (range(1, 10, 3) as $number) {
+    echo "Il numero è: $number <br>";
+} */
+
+
+
+
 //$ Iterare su array multidimensionali
 /* // Array multidimensionale
 $students = [
