@@ -56,6 +56,7 @@ for ($i = 0; $i < $length; $i++) {
 } */
 
 
+
 //% foreach
 //$fruits = ["mela", "banana", "arancia", "pera", "kiwi"];
 /* foreach ($fruits as $fruit) {
@@ -66,7 +67,7 @@ for ($i = 0; $i < $length; $i++) {
 } */
 
 
-//$ range()
+//% range()
 /* $numbers = range(1, 10, 3);
 print_r($numbers); */
 
@@ -76,8 +77,22 @@ print_r($numbers); */
 
 
 
+//% list() e each()
+//$ list()
+/* $fruits = ["mela", "banana", "arancia", "pera", "kiwi"];
+list($a, $b, $c, $d, $e) = $fruits;
+echo "A: $a <br> B: $b <br> C: $c <br> D: $d <br> E: $e <br>"; */
 
-//$ Iterare su array multidimensionali
+//$ each()
+/* $fruits = ["mela", "banana", "arancia", "pera", "kiwi"];
+while (list($indice, $valore) = each($fruits)) {
+    echo "$indice: $valore\n";
+} */
+
+
+
+
+//% Iterare su array multidimensionali
 /* // Array multidimensionale
 $students = [
     ['name' => 'Mario', 'age' => 20, 'grades' => [78, 80, 82]],
