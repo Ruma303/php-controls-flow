@@ -4,12 +4,12 @@
 
 
 //$ if, else
-/* if (true) {
+/* if (false) {
     echo '<h2>Istruzioni if eseguite</h2>';
 } else {
     echo '<h2>Istruzioni else eseguite</h2>';
-}
- */
+} */
+
 
 //$ if, elseif, else
 /* $val = 10;
@@ -19,8 +19,8 @@ if ($val > 10) {
     echo '<h2>Istruzioni elseif eseguite</h2>';
 } else {
     echo '<h2>Istruzioni else eseguite</h2>';
-} */
-
+}
+ */
 
 /* $val = 10;
 if ($val > 10) {
@@ -64,12 +64,12 @@ if (!($a > 20)) {
 //$ Operatore ternario
 /* $a = 10;
 $b = 20;
-echo ($a > $b) ? "$a è maggiore di $b" : "$a è minore di $b";
-// Risultato: 10 è minore di 20 */
+echo ($a < $b) ? "Primo risultato" : "Secondo risultato"; */
+// Risultato: 10 è minore di 20
 
 
 //$ Costrutto switch
-/* $frutta = "fragola";
+/* $frutta = "arancia";
 switch ($frutta) {
     case (5 > 10):
         echo "Hai scelto una banana.";
@@ -84,12 +84,12 @@ switch ($frutta) {
         break;
     default:
         echo "Scelta non valida.";
-} */
-
+}
+ */
 
 
 //$ Costrutto match
-/* $frutta = "mela";
+$frutta = "mela";
 $message = match ($frutta) {
     "banana" => "Hai scelto una banana.",
     "mela" => "Hai scelto una mela.",
@@ -97,7 +97,7 @@ $message = match ($frutta) {
     default => "Scelta non valida.",
 };
 echo $message;
- */
+
 
 
 
