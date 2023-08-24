@@ -89,14 +89,22 @@ switch ($frutta) {
 
 
 //$ Costrutto match
-$frutta = "mela";
+/* $frutta = "mela";
 $message = match ($frutta) {
-    "banana" => "Hai scelto una banana.",
     "mela" => "Hai scelto una mela.",
+    "banana" => "Hai scelto una banana",
     "arancia" => "Hai scelto un'arancia.",
     default => "Scelta non valida.",
 };
-echo $message;
+echo $message; */ // Hai scelto una banana.
+
+/* $frutta = "banana";
+$message = match ($frutta) {
+    "mela", "banana" => "Hai scelto una mela.",
+    "arancia" => "Hai scelto un'arancia.",
+    default => "Scelta non valida.",
+};
+echo $message; */ // Hai scelto una mela.
 
 
 

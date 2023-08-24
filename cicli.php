@@ -86,6 +86,20 @@ echo '</pre>'; */
 list($a, $b, $c, $d, $e) = $fruits;
 echo "A: $a <br> B: $b <br> C: $c <br> D: $d <br> E: $e <br>"; */
 
+//$ each()
+/* $fruits = ["mela", "banana", "arancia", "pera", "kiwi"];
+while (list($indice, $valore) = each($fruits)) {
+    echo "$indice: $valore\n";
+} */
+
+
+
+//% list() e each()
+//$ list()
+/* $fruits = ["mela", "banana", "arancia", "pera", "kiwi"];
+list($a, $b, $c, $d, $e) = $fruits;
+echo "A: $a <br> B: $b <br> C: $c <br> D: $d <br> E: $e <br>"; */
+
 
 //$ each()
 /* $fruits = ["mela", "banana", "arancia", "pera", "kiwi"];
@@ -96,8 +110,9 @@ while (list($indice, $valore) = each($fruits)) {
 
 
 
-//% Iterare su array multidimensionali
-/* $students = [
+//$ Iterare su array multidimensionali
+/* // Array multidimensionale
+$students = [
     ['name' => 'Mario', 'age' => 20, 'grades' => [78, 80, 82]],
     ['name' => 'Luigi', 'age' => 22, 'grades' => [88, 85, 90]],
     ['name' => 'Peach', 'age' => 21, 'grades' => [92, 95, 98]],
