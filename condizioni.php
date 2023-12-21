@@ -62,10 +62,12 @@ if (!($a > 20)) {
 
 
 //, Operatore ternario
-/* $a = 10;
+$a = 10;
 $b = 20;
-echo ($a < $b) ? "Primo risultato" : "Secondo risultato"; */
+//echo ($a < $b) ? "Primo risultato" : "Secondo risultato";
 // Risultato: 10 è minore di 20
+
+//echo ((10 > 11) ? "Questo no" : (10 > 12)) ? "Neanche questo" : "Questo si";
 
 
 //, Costrutto switch
