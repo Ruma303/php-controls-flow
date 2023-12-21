@@ -3,7 +3,7 @@
 //% Costrutti condizionali
 
 
-//$ if, else
+//, if, else
 /* if (false) {
     echo '<h2>Istruzioni if eseguite</h2>';
 } else {
@@ -11,7 +11,7 @@
 } */
 
 
-//$ if, elseif, else
+//, if, elseif, else
 /* $val = 10;
 if ($val > 10) {
     echo '<h2>Istruzioni if eseguite</h2>';
@@ -39,7 +39,7 @@ if ($val > 10) {
 
 
 
-//$ Condizioni composte
+//, Condizioni composte
 /* $a = 10;
 $b = 20;
 $c = 30;
@@ -61,14 +61,14 @@ if (!($a > 20)) {
 
 
 
-//$ Operatore ternario
+//, Operatore ternario
 /* $a = 10;
 $b = 20;
 echo ($a < $b) ? "Primo risultato" : "Secondo risultato"; */
 // Risultato: 10 è minore di 20
 
 
-//$ Costrutto switch
+//, Costrutto switch
 /* $frutta = "arancia";
 switch ($frutta) {
     case (5 > 10):
@@ -88,7 +88,7 @@ switch ($frutta) {
  */
 
 
-//$ Costrutto match
+//, Costrutto match
 /* $frutta = "mela";
 $message = match ($frutta) {
     "mela" => "Hai scelto una mela.",

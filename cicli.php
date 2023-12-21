@@ -2,7 +2,7 @@
 
 //% Costrutti ciclici
 
-//$ while
+//, while
 /* $a = 1;
 while($a <= 10) {
     echo "Iterazione numero: $a<br>";
@@ -10,7 +10,7 @@ while($a <= 10) {
 } */
 
 
-//$ do while
+//, do while
 /* $a = 1;
 do {
     echo "Iterazione numero: $a<br>";
@@ -18,7 +18,7 @@ do {
 } while ($a <= 10); */
 
 
-//$ for
+//, for
 /* for ($i = 1; $i <= 10; $i++) {
     echo "Numero: $i<br>";
 } */
@@ -29,7 +29,7 @@ do {
 
 //% altre keywords
 
-//$ continue
+//, continue
 /* for ($i = 1; $i <= 10; $i++) {
     if ($i % 2 == 0) {
         continue;
@@ -38,7 +38,7 @@ do {
     }
 }
  */
-//$ break
+//, break
 /* for ($i = 1; $i <= 10; $i++) {
     if ($i == 5) {
         break;
@@ -59,7 +59,7 @@ for ($i = 0; $i < $length; $i++) {
 
 
 //% foreach
-//$fruits = ["mela", "banana", "arancia", "pera", "kiwi"];
+//,fruits = ["mela", "banana", "arancia", "pera", "kiwi"];
 /* foreach ($fruits as $fruit) {
     echo "Frutta: $fruit<br>";
 } */
@@ -81,12 +81,12 @@ echo '</pre>'; */
 
 
 //% list() e each()
-//$ list()
+//, list()
 /* $fruits = ["mela", "banana", "arancia", "pera", "kiwi"];
 list($a, $b, $c, $d, $e) = $fruits;
 echo "A: $a <br> B: $b <br> C: $c <br> D: $d <br> E: $e <br>"; */
 
-//$ each()
+//, each()
 /* $fruits = ["mela", "banana", "arancia", "pera", "kiwi"];
 while (list($indice, $valore) = each($fruits)) {
     echo "$indice: $valore\n";
@@ -95,13 +95,13 @@ while (list($indice, $valore) = each($fruits)) {
 
 
 //% list() e each()
-//$ list()
+//, list()
 /* $fruits = ["mela", "banana", "arancia", "pera", "kiwi"];
 list($a, $b, $c, $d, $e) = $fruits;
 echo "A: $a <br> B: $b <br> C: $c <br> D: $d <br> E: $e <br>"; */
 
 
-//$ each()
+//, each()
 /* $fruits = ["mela", "banana", "arancia", "pera", "kiwi"];
 while (list($indice, $valore) = each($fruits)) {
     echo "$indice: $valore\n";
@@ -110,7 +110,7 @@ while (list($indice, $valore) = each($fruits)) {
 
 
 
-//$ Iterare su array multidimensionali
+//, Iterare su array multidimensionali
 /* // Array multidimensionale
 $students = [
     ['name' => 'Mario', 'age' => 20, 'grades' => [78, 80, 82]],
