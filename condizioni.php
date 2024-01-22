@@ -35,8 +35,8 @@ if ($val > 10) {
     echo '<h2>Quarto elseif non eseguito</h2>';
 } else {
     echo '<h2>Istruzioni else non eseguite</h2>';
-} */
-
+}
+ */
 
 
 //, Condizioni composte
@@ -63,8 +63,8 @@ if (!($a > 20)) {
 
 //, Operatore ternario
 /* $a = 10;
-$b = 20; */
-//echo ($a < $b) ? "Primo risultato" : "Secondo risultato";
+$b = 20;
+echo ($a < $b) ? "Primo risultato" : "Secondo risultato"; */
 // Risultato: 10 è minore di 20
 
 
@@ -89,12 +89,13 @@ switch ($frutta) {
         break;
     default:
         echo "Scelta non valida.";
-}
- */
+} */
+
 
 
 //, Costrutto match
-/* $frutta = "mela";
+/* $frutta = "banana";
+
 $message = match ($frutta) {
     "mela" => "Hai scelto una mela.",
     "banana" => "Hai scelto una banana",
@@ -110,7 +111,3 @@ $message = match ($frutta) {
     default => "Scelta non valida.",
 };
 echo $message; */ // Hai scelto una mela.
-
-
-
-
